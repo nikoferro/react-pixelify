@@ -1,0 +1,39 @@
+{
+  "name": "react-pixelify",
+  "version": "0.1.0",
+  "description": "React library to pixelify images",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel lib -d build",
+    "lint": "eslint lib/**; exit 0",
+    "lint:watch": "esw -w lib/**",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikoferro/react-pixelify.git"
+  },
+  "author":
+    "Nicolas Ferro <nicolaspatricioferro@gmail.com> (https://github.com/nikoferro)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikoferro/react-pixelify/issues"
+  },
+  "homepage": "https://github.com/nikoferro/react-pixelify#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.11.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-react": "^7.4.0",
+    "eslint-watch": "^3.1.3",
+    "polished": "^1.9.0",
+    "prop-types": "^15.6.0",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "styled-components": "^2.2.3"
+  }
+}
