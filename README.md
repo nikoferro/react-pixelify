@@ -5,6 +5,9 @@ This repository contains the source code and documentation of the pixelify compo
 Currently, the package includes only the following component:
 
 * Pixelify
+## Demo
+
+https://nikoferro.github.io/react-pixelify-demo/
 
 ## Installing
 
