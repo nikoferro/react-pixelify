@@ -1,6 +1,6 @@
 {
   "name": "react-pixelify",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React library to pixelify images",
   "keywords": ["react", "react-component", "pixel", "pixel-art"],
   "main": "build/index.js",
