@@ -2,6 +2,7 @@
   "name": "react-pixelify",
   "version": "0.1.0",
   "description": "React library to pixelify images",
+  "keywords": ["react", "react-component", "pixel", "pixel-art"],
   "main": "build/index.js",
   "scripts": {
     "build": "babel lib -d build",
